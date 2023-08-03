@@ -1,0 +1,11 @@
+name: Jobs
+on:
+  push:
+    branches: ['**']
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say "hello"
+        run: echo "Hello, world!"
