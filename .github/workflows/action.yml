@@ -1,4 +1,4 @@
-name: Jobs
+name: ci/cd
 on:
   push:
     branches: ['**']
@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say "hello"
-        run: echo "Hello, beautiful world!"
+        run: echo "Hello, wonderful world!"
