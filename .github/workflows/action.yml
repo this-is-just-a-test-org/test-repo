@@ -7,5 +7,5 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Say "hello"
+      - name: Say "hello World"
         run: echo "Hello, wonderful world!"
